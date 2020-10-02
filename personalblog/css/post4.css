@@ -1,0 +1,31 @@
+h1{
+  background-color: #00CCFF;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 30px;
+}
+.top{
+  background-image: url('https://negativespace.co/wp-content/uploads/2020/02/negative-space-straight-cruising.jpg')
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+figcaption{
+  text-align: center;
+  padding: 30px;
+}
+.body{
+  background-color: #0066CC;
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+}
+.bottom{
+  background-color: #6699FF;
+  padding: 20px;
+}
+q{
+  color: #660066;
+}

@@ -1,0 +1,28 @@
+h1{
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid #336600;
+  background-color: #99FF66;
+  border-radius: 50px;
+  color: #46821D;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption{
+  text-align: center;
+  padding: 20px;
+}
+article{
+  padding: 20px;
+}
+.body{
+  background-image: url('https://negativespace.co/wp-content/uploads/2020/03/negative-space-orange-puffy-clouds-131.jpg');
+  padding: 20px;
+}
+.bottom{
+  background-color: #d6fdb7;
+  padding: 20px;
+}

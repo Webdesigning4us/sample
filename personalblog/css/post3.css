@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+  font-size: 40px;
+  background-color: #FFFFCC;
+  padding: 20px;
+  border-radius: 50px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+figcaption{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #66ff33;
+  border-radius: 90px;
+  width: 50%;
+  margin: 0 0 0 190px;
+}
+.body{
+  background-color: #befe4f;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: url('https://negativespace.co/wp-content/uploads/2020/02/negative-space-maple-tree-leaves-125.jpg');
+}
+.bottom{
+  background-color: #FFFF66;
+  padding: 20px;
+}

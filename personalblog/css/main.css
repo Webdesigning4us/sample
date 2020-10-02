@@ -1,0 +1,116 @@
+@import url('index_responsive_stylesheet1.css')(max-width: 600px);
+@import url('index_responsive_stylesheet2.css')(min-width: 600px);
+@import url('index_responsive_stylesheet3.css')(min-width: 992px);
+@import url('index_responsive_stylesheet4.css')(min-width: 1200px);
+body{
+  background-color: #444;
+  color: #003300;
+  padding: 30px;
+}
+h1{
+  color: #99FF6A;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  background-image: url('https://negativespace.co/wp-content/uploads/2020/03/negative-space-foggy-oceanside-city-highway.jpg');
+  background-size: contain;
+}
+@media(max-width: 600px){
+.contain{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 1fr 1fr;
+  grid-template-areas:
+    'nt nt nt nt nt nt nt nt nt nt nt nt'
+    'in in in in in in in in in in in in'
+    'main main main main main main main main main main main main'
+    'ft ft ft ft ft ft ft ft ft ft ft ft';
+  }
+}
+.box{
+  background-color: #e6ffcc;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid red;  
+}
+nav > div:nth-child(3){
+  margin-left: auto;
+}
+#h{
+  padding: 10px;
+}
+#p{
+  padding: 10px;
+}
+#l{
+  padding: 10px;
+}
+.top{
+  grid-area: nt;
+}
+.menu{
+  grid-area: in;
+}
+.content{
+  grid-area: main;
+}
+.footer{
+  grid-area: ft; 
+}
+#nestedGrid{
+  display: grid;
+  grid-template-rows: 40% 45% 15%;
+}
+.sidebar{
+  font-size: 13px;
+  padding: 0 0 70px;
+}
+#nestedGrid1{
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 50%;
+  grid-template-rows: 50% 50% 50% 50%;
+}
+@media(min-width: 600px){
+  .contain{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+    'nt nt nt nt nt nt nt nt nt nt nt nt'
+    'in in in in in main main main main main main main'    
+    'ft ft ft ft ft ft ft ft ft ft ft ft';
+  border: 3px solid #3333FF;
+  }
+}
+@media(min-width: 992px){
+  .contain{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+    'nt nt nt nt nt nt nt nt nt nt nt nt'
+    'in in in in in in main main main main main main'    
+    'ft ft ft ft ft ft ft ft ft ft ft ft';
+  border: 3px solid #66ff33;
+  }
+}
+@media(min-width: 1200px){
+  .contain{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+    'nt nt nt nt nt nt nt nt nt nt nt nt'
+    'in in in in in in in in main main main main'    
+    'ft ft ft ft ft ft ft ft ft ft ft ft';
+  border: 3px solid #cc00ff;
+  }
+}
+
